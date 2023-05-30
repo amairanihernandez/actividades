@@ -1,0 +1,101 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "calculadora uno",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hola",
+                        "como estás",
+                        "di hola mundo",
+                        "di hola",
+                        "hola mundo"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Suma",
+                    "slots": [
+                        {
+                            "name": "primernum",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "segundonum",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "suma {primernum} mas {segundonum}"
+                    ]
+                },
+                {
+                    "name": "Resta",
+                    "slots": [
+                        {
+                            "name": "primernum",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "segundonum",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "resta {primernum} menos {segundonum} "
+                    ]
+                },
+                {
+                    "name": "Multiplicacion",
+                    "slots": [
+                        {
+                            "name": "primernum",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "segundonum",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "multiplica {primernum} por {segundonum}"
+                    ]
+                },
+                {
+                    "name": "Division",
+                    "slots": [
+                        {
+                            "name": "primernum",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "segundonum",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "divide {primernum} entre {segundonum}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
